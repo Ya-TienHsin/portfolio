@@ -72,7 +72,7 @@ sr.reveal('#section2.link,.side', {
   duration: 600,
   }, 150);
 
-sr.reveal('#section6 .icon', { 
+sr.reveal('#section6', { 
   origin: 'bottom', 
   distance: '40px',
   easing: 'ease-out',
