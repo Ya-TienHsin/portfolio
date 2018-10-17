@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<title>【玉山銀行】玉山理財電子週報</title>
+	<meta name="keywords" content="理財電子報,財富管理,金融情勢,基金,投資理財" />
+  	<meta name="description" content="【玉山銀行】玉山理財電子週報" />
+	<meta property="og:image" content="images/index/facebbok.png"></meta>
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link rel="shortcut icon" href="https://card.esunbank.com.tw/EsunCreditweb/images/favicon.ico">
+	<link rel="stylesheet" href="css/all.css" />
+</head>
+<body ontouchstart>
+	<a href="javascript:" id="top" style="z-index:1;"><i class="icon-chevron-up"></i></a>
+	<div id="wrapper">
+		<div class="header">
+			<ul>
+				<li class="logo"><a href="https://www.esunbank.com.tw/bank/personal"></a></li>
+			</ul>
+		</div>
+		<section>
+			<div class="header_title">
+				<img src="images/header_deco_left.svg" alt="">
+				<img src="images/header_deco_right.svg" alt="">
+
+				<h1>理財電子週報</h1>
+				<p>2018年07月23日 第446期</p>
+			</div>
+		</section>
+		<section id="sec1" class="section section1">
+			<h2><img src="images/h2_deco.svg" alt="">全球市場回顧</h2>
+			<h3>Fed會後聲明偏鴿 後續需留意美中貿易談判</h3>
+			<span class="more">&nbsp;&nbsp; &nbsp; &nbsp; 上週全球股市多數上漲，美國退出伊朗核協議雖推升油價，但上週公佈的美國CPI數據顯示通膨未如預期加速走揚，通膨升溫疑慮減輕，加速升息機率下降，加上財報助攻下美科技股帶頭反彈，能源股也受油價走揚的激勵，總計一週，MSCI世界指數上漲2.03%，MSCI新興市場指數上漲2.49%。成熟市場方面，美國4月CPI月增0.2%，低於預期，不含食品及能源的核心CPI月增0.1%，年增2.1%，亦低於預估，通膨加速疑慮緩解。歐洲方面，英國央行維持利率不變，並下調今年經濟增長預估；德國3月工業生產月比上升1.0%高於預估值，緩解經濟增長放緩的憂慮。債市方面，全球股市反彈激勵與其連動較深的高收益債市表現較佳。展望後市，美國宣布退出伊朗核協議，後續制裁措施可能減少伊朗原油日均供給50萬桶，油價偏強環境有利能源、新歐等類股表現，不過因美中貿易談判尚未有明顯進展，本週將進入301條款公聽會關鍵日期，建議核心部位以多元資產與高收債為主要配置以應對可能波動。</span>
+			<h3 class="bar_title">上週全球市場表現</h3>
+			<div class="bar_inner">
+				<div class="left_bar">
+					<canvas id="BarChart1">  </canvas>
+					<p>資料來源:Bloomberg，至2018/08/31</p>
+				</div>
+				<div class="right_bar">
+					<canvas id="BarChart2">  </canvas>
+					<p>資料來源:Bloomberg，至2018/08/31</p>
+				</div>
+			</div>
+		</section>
+		<section  id="sec2" class="section section2">
+			<h2><img src="images/h2_deco.svg" alt="">市場動態及展望</h2>
+			<div class="content_outside">
+				<div class="left_tab">
+					<div class="left_all">
+						<div class="signal">
+							<div class="signal_1">
+								<img src="images/sunny.svg" alt="">
+								<p>相對正向</p>
+							</div>
+							<div class="signal_1">
+								<img src="images/cloud.svg" alt="">
+								<p>中立</p>
+							</div>
+							<div class="signal_1">
+								<img src="images/partly_Cloudy.svg" alt="">
+								<p>保守</p>
+							</div>
+						</div>
+						<div class="tab-wrapper">
+						 	<ul class="tab-menu">
+						    	<li class="active">焦點市場</li>
+						    	<li>投資方向</li>
+						 	</ul>
+							<div class="tab-content">
+								<div class="market">
+									<nav class="market_first">
+										<a class="signal_2 active" href="#one">
+											<div class="icon">
+												<img src="images/sunny.svg" alt="">
+											</div>
+											<p>美國</p>
+										</a>
+										<a class="signal_2" href="#two">
+											<div class="icon">
+												<img src="images/sunny.svg" alt="">
+											</div>
+											<p>歐洲</p>
+										</a>
+										<a class="signal_2" href="#third">
+											<div class="icon">
+												<img src="images/cloud.svg" alt="">
+											</div>
+											<p>東北亞</p>
+										</a>
+										<a class="signal_2"  href="#forth">
+											<div class="icon">
+												<img src="images/partly_Cloudy.svg" alt="">
+											</div>
+											<p>東南亞</p>
+										</a>
+									</nav>
+									<nav class="market_first">
+										<p style="padding: 5px 0px;">其他市場</p>	
+										<a class="signal_2" href="#fifth">
+											<div class="icon">
+												<img src="images/sunny.svg" alt="">
+											</div>
+											<p>拉丁美洲</p>
+										</a>
+										<a class="signal_2"  href="#sixth">
+											<div class="icon">
+												<img src="images/partly_Cloudy.svg" alt="">
+											</div>
+											<p>美債</p>
+										</a>
+										<a class="signal_2" href="#seventh">
+											<div class="icon">
+												<img src="images/cloud.svg" alt="">
+											</div>
+											<p>新興債</p>
+										</a>
+										<a class="signal_2" href="#eighth">
+											<div class="icon">
+												<img src="images/cloud.svg" alt="">
+											</div>
+											<p>新興歐洲</p>
+										</a>
+										<a class="signal_2" href="#ninth">
+											<div class="icon">
+												<img src="images/sunny.svg" alt="">
+											</div>
+											<p>公司債</p>
+										</a>
+									</nav>
+								</div>
+						    	<div class="direction">
+						    		<nav class="market_first">
+						    			<p style="padding: 5px 0px;">依序排列投資方向建議</p>	
+						    			<a class="signal_2 active" href="#one">
+						    				<div class="icon">
+						    					<img src="images/sunny.svg" alt="">
+						    				</div>
+						    				<p><span>1.</span>美國</p>
+						    			</a>
+						    			<a class="signal_2" href="#two">
+						    				<div class="icon">
+						    					<img src="images/sunny.svg" alt="">
+						    				</div>
+						    				<p><span>2.</span>歐洲</p>
+						    			</a>
+						    			<a class="signal_2" href="#third">
+						    				<div class="icon">
+						    					<img src="images/cloud.svg" alt="">
+						    				</div>
+						    				<p><span>3.</span>東北亞</p>
+						    			</a>
+						    			<a class="signal_2"  href="#forth">
+						    				<div class="icon">
+						    					<img src="images/partly_Cloudy.svg" alt="">
+						    				</div>
+						    				<p><span>4.</span>東南亞</p>
+						    			</a>
+						    		</nav>
+						    		<nav class="market_first">	
+						    			<a class="signal_2" href="#fifth">
+						    				<div class="icon">
+						    					<img src="images/sunny.svg" alt="">
+						    				</div>
+						    				<p>5.拉丁美洲</p>
+						    			</a>
+						    			<a class="signal_2" href="#sixth">
+						    				<div class="icon">
+						    					<img src="images/partly_Cloudy.svg" alt="">
+						    				</div>
+						    				<p>6.美債</p>
+						    			</a>
+						    			<a class="signal_2" href="#seventh">
+						    				<div class="icon">
+						    					<img src="images/cloud.svg" alt="">
+						    				</div>
+						    				<p>7.新興債</p>
+						    			</a>
+						    			<a class="signal_2" href="#eighth">
+						    				<div class="icon">
+						    					<img src="images/cloud.svg" alt="">
+						    				</div>
+						    				<p>8.新興歐洲</p>
+						    			</a>
+						    			<a class="signal_2" href="#ninth">
+						    				<div class="icon">
+						    					<img src="images/sunny.svg" alt="">
+						    				</div>
+						    				<p>9.公司債</p>
+						    			</a>
+						    		</nav>
+						    	</div>
+						  	</div>
+						</div>
+						<p class="ex">點選圖示掌握市場動態與展望</p>
+					</div>
+				</div>
+				<div id="one" class="right_all show">
+					<p style="display: flex;"><img src="images/sunny.svg" alt="">美國</p>
+					<div class="right_content">
+						<h3>美國股市：美中貿易談判料將逐漸重回市場焦點</h3>
+						<div class="right_word">
+							<img src="images/1.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp; 受到美國退出伊朗核協議推高油價使能源股走強，以及美國通膨增幅低於市場預期的影響，總計一週，S&P500指數收漲2.41%，收在2,727.72。<br>&nbsp;&nbsp; &nbsp; &nbsp; 經濟數據部分，美國3月JOLTS職缺數創下655萬的歷史新高，接近3月659萬人的失業人數，反映勞動市場持續熱絡。而美國4月CPI雖如預期年增2.5%，但核心CPI年增率僅有2.1%，低於市場預期的2.2%，顯示當前美國通膨壓力尚可控。<br>&nbsp;&nbsp; &nbsp; &nbsp; 近期美中貿易代表磋商均未能達成有效結論，參考美中貿易談判日程，美國訂出的60天磋商期將於5/22結束，並預計6月初至6月中將宣告最終關稅清單，預期市場焦點將隨關鍵時點接近而重回美中貿易談判進程，在雙方共識趨於明朗前，短線投資人觀望氣氛將較濃。<br>&nbsp;&nbsp; &nbsp; &nbsp; 雖然Fed於5月會後聲明表達可以容忍通膨短期超過目標，降低美國退出伊朗核協議的通膨預期走高對殖利率影響程度，且美股技術面有轉強跡象，但考量美中貿易摩擦的潛在不確定性，評估S&P500指數短線於2,550-2,800間整理格局不變。</p>
+						</div>
+					</div>
+				</div>
+				<div id="two" class="right_all">
+					<p style="display: flex;"><img src="images/sunny.svg" alt="">歐洲</p>
+					<div class="right_content">
+						<h3>歐洲股市：美中貿易談判料將逐漸重回市場焦點</h3>
+						<div class="right_word">
+							<img src="images/2.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp; 上週美國對中國2,000億美元進口商品初期加徵稅率低於預期，且後續存在協調空間，加上中國反擊力道不如預期，使金融市場原先對貿易戰的擔憂因而緩和，在汽車類股與礦業類股帶動下，道瓊歐洲600指數一週累計收漲1.70%，收在384.29。區域主要股市中，德國DAX指數收漲2.53%，收在12,430.88；法國CAC指數收漲2.65%，收在5,494.17；英國富時100指數收漲2.55%，收在7,490.23。<br>&nbsp;&nbsp; &nbsp; &nbsp; 展望後市，義大利執政聯盟官員多釋出希望控制2019年預算赤字低於歐盟標準3%的消息後，義大利公債殖利率繼續回落，透露市場對義大利局勢擔憂有所減緩。然而，花旗歐元區經濟驚奇指數自9月初高點5.3轉折走低至-17.9，顯示近期歐元區經濟數據呈現更多遜於預期情況，或抑制近期歐股動能。此外，道瓊歐洲600指數上方主要均線糾結且398存在較大技術壓力，惟366具支撐，故預期短期道瓊歐洲600指數仍將持續介於366~398區間震盪。</p>
+						</div>
+					</div>
+				</div>
+				<div id="third" class="right_all">
+					<p style="display: flex;"><img src="images/cloud.svg" alt="">東北亞</p>
+					<div class="right_content">
+						<h3>東北亞股市：中美新一輪貿易關稅較預期和緩</h3>
+						<div class="right_word">
+							<img src="images/2.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp; 儘管上週美對中宣布2,000億美元關稅，惟美對中初始關稅低於預期，並伴隨中國官方推出支持經濟的政策預期轉強，推升陸港股市走揚。總計一週，上證指數收高4.32%，收在2,797.48；國企及恆生指數分別上漲4.27%及2.45%，並收在11,027.13及27,953.58。<br>&nbsp;&nbsp; &nbsp; &nbsp;9/17美國宣布對2,000億美元中國商品加徵關稅，9/18中方回應對600億美元美國商品加徵5%至10%關稅，將於9/24生效，惟美對中最新公布的初始稅率10%低於預期的25%，市場預期為雙方保留協商的彈性。<br>&nbsp;&nbsp; &nbsp; &nbsp;此外，9/17人行展開中期借貸便利(MLF)操作2,650億元人民幣(下同)，單日實現淨投放2,650億元，可望為加速發行的地方政府債(9/17-9/21發行總額達3,789億)，提供流動性以增加財政政策的實現，有助經濟穩定，加上9/19總理李克強支持民營企業發展及降稅減費等利多政策，並強調人民幣不會競爭性貶值，將使陸股短期逐步朝3,000點靠攏。<br>&nbsp;&nbsp; &nbsp; &nbsp;南韓股市方面，受惠中美貿易戰擔憂逐漸淡化，且南北韓簽署平壤共同宣言，協議推動韓朝共同去除核武，提振上週KOSPI指數上漲0.90%，收在2,339.17。<br>&nbsp;&nbsp; &nbsp; &nbsp;據南韓央行統計，Q2家庭債務與可支配收入之比為161.1%，高於去年同期的159.8%，因薪資增長緩慢，不利償債能力，考量南韓央行年底前或追隨美國升息步伐， 將推高韓國家庭借貸成本，降低可支配所得，減緩經濟動能，故韓股短期保守以待 。</p>
+						</div>
+					</div>
+				</div>
+				<div id="forth" class="right_all">
+					<p style="display: flex;"><img src="images/partly_Cloudy.svg" alt="">東南亞</p>
+					<div class="right_content">
+						<h3>東南亞股市：盧比續貶壓抑股市 與美消弭貿易摩擦</h3>
+						<div class="right_word">
+							<img src="images/2.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp;上週美國宣布對中國2,000億美元商品課稅清單，稅率25%低於此前威脅的10%，投資人正面解讀，激勵MSCI東南亞指數上週上漲1.5%，收在789.27點。<br>&nbsp;&nbsp; &nbsp; &nbsp;泰國央行維持基準利率(1.5%)不變，評估今年出口年增率9.0%，且經濟成長率將會自去年3.9%(近5年最大增幅)提升至4.4%。央行表示將繼續維持低利率提振經濟，且預估通膨年增率為1.1%(央行目標區間1-4%)，市場預期泰國央行升息可能延後至明年，預期貨幣寬鬆將利泰股及經濟表現。而菲律賓上半年外債(722億美元)較去年同期下降0.4%，且8月國際收支歷經連7月赤字後呈現改善跡象(順差12.7億美元)，同時外匯存底亦回升為披索貶值提供保護空間。綜上，東南亞基本面和政策面有機會舒緩股匯壓力，評估MSCI東南亞指數可望往年線挑戰，後市可樂觀看待。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度9/14宣布將限制進口非必需品，降低外資對國內企業的投資門檻，並提高國內企業海外發債的比重上限，以期降低經常帳赤字，另提高鋼鐵進口稅至15%，原先5%-12.5%，以避免盧比持續貶值。不過近期油價續揚，預料盧比短期仍偏弱勢，故不排除10/5央行再度升息來阻貶。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度原定對美國實施鋼鋁課稅的反制措施由9/17延至11/2，預估未來幾週內雙方將達成協議，印度農產品將更容易進入美國，美國出口至印度的醫療設備可望取消訂價上限，並調降美國IT零組件進口稅。儘管弱勢盧比不利印股，但印度經濟強勁，且避免與美國貿易衝突，SENSEX 30指數長線仍偏多看待。</p>
+						</div>
+					</div>
+				</div>
+				<div id="fifth" class="right_all">
+					<p style="display: flex;"><img src="images/partly_Cloudy.svg" alt="">拉丁美洲</p>
+					<div class="right_content">
+						<h3>拉丁美洲股市：盧比續貶壓抑股市 與美消弭貿易摩擦</h3>
+						<div class="right_word">
+							<img src="images/2.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp;上週美國宣布對中國2,000億美元商品課稅清單，稅率25%低於此前威脅的10%，投資人正面解讀，激勵MSCI東南亞指數上週上漲1.5%，收在789.27點。<br>&nbsp;&nbsp; &nbsp; &nbsp;泰國央行維持基準利率(1.5%)不變，評估今年出口年增率9.0%，且經濟成長率將會自去年3.9%(近5年最大增幅)提升至4.4%。央行表示將繼續維持低利率提振經濟，且預估通膨年增率為1.1%(央行目標區間1-4%)，市場預期泰國央行升息可能延後至明年，預期貨幣寬鬆將利泰股及經濟表現。而菲律賓上半年外債(722億美元)較去年同期下降0.4%，且8月國際收支歷經連7月赤字後呈現改善跡象(順差12.7億美元)，同時外匯存底亦回升為披索貶值提供保護空間。綜上，東南亞基本面和政策面有機會舒緩股匯壓力，評估MSCI東南亞指數可望往年線挑戰，後市可樂觀看待。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度9/14宣布將限制進口非必需品，降低外資對國內企業的投資門檻，並提高國內企業海外發債的比重上限，以期降低經常帳赤字，另提高鋼鐵進口稅至15%，原先5%-12.5%，以避免盧比持續貶值。不過近期油價續揚，預料盧比短期仍偏弱勢，故不排除10/5央行再度升息來阻貶。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度原定對美國實施鋼鋁課稅的反制措施由9/17延至11/2，預估未來幾週內雙方將達成協議，印度農產品將更容易進入美國，美國出口至印度的醫療設備可望取消訂價上限，並調降美國IT零組件進口稅。儘管弱勢盧比不利印股，但印度經濟強勁，且避免與美國貿易衝突，SENSEX 30指數長線仍偏多看待。</p>
+						</div>
+					</div>
+				</div>
+				<div id="sixth" class="right_all">
+					<p style="display: flex;"><img src="images/partly_Cloudy.svg" alt="">美債</p>
+					<div class="right_content">
+						<h3>美債股市：盧比續貶壓抑股市 與美消弭貿易摩擦</h3>
+						<div class="right_word">
+							<img src="images/2.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp;上週美國宣布對中國2,000億美元商品課稅清單，稅率25%低於此前威脅的10%，投資人正面解讀，激勵MSCI東南亞指數上週上漲1.5%，收在789.27點。<br>&nbsp;&nbsp; &nbsp; &nbsp;泰國央行維持基準利率(1.5%)不變，評估今年出口年增率9.0%，且經濟成長率將會自去年3.9%(近5年最大增幅)提升至4.4%。央行表示將繼續維持低利率提振經濟，且預估通膨年增率為1.1%(央行目標區間1-4%)，市場預期泰國央行升息可能延後至明年，預期貨幣寬鬆將利泰股及經濟表現。而菲律賓上半年外債(722億美元)較去年同期下降0.4%，且8月國際收支歷經連7月赤字後呈現改善跡象(順差12.7億美元)，同時外匯存底亦回升為披索貶值提供保護空間。綜上，東南亞基本面和政策面有機會舒緩股匯壓力，評估MSCI東南亞指數可望往年線挑戰，後市可樂觀看待。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度9/14宣布將限制進口非必需品，降低外資對國內企業的投資門檻，並提高國內企業海外發債的比重上限，以期降低經常帳赤字，另提高鋼鐵進口稅至15%，原先5%-12.5%，以避免盧比持續貶值。不過近期油價續揚，預料盧比短期仍偏弱勢，故不排除10/5央行再度升息來阻貶。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度原定對美國實施鋼鋁課稅的反制措施由9/17延至11/2，預估未來幾週內雙方將達成協議，印度農產品將更容易進入美國，美國出口至印度的醫療設備可望取消訂價上限，並調降美國IT零組件進口稅。儘管弱勢盧比不利印股，但印度經濟強勁，且避免與美國貿易衝突，SENSEX 30指數長線仍偏多看待。</p>
+						</div>
+					</div>
+				</div>
+				<div id="seventh" class="right_all">
+					<p style="display: flex;"><img src="images/partly_Cloudy.svg" alt="">新興債</p>
+					<div class="right_content">
+						<h3>新興債股市：盧比續貶壓抑股市 與美消弭貿易摩擦</h3>
+						<div class="right_word">
+							<img src="images/2.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp;上週美國宣布對中國2,000億美元商品課稅清單，稅率25%低於此前威脅的10%，投資人正面解讀，激勵MSCI東南亞指數上週上漲1.5%，收在789.27點。<br>&nbsp;&nbsp; &nbsp; &nbsp;泰國央行維持基準利率(1.5%)不變，評估今年出口年增率9.0%，且經濟成長率將會自去年3.9%(近5年最大增幅)提升至4.4%。央行表示將繼續維持低利率提振經濟，且預估通膨年增率為1.1%(央行目標區間1-4%)，市場預期泰國央行升息可能延後至明年，預期貨幣寬鬆將利泰股及經濟表現。而菲律賓上半年外債(722億美元)較去年同期下降0.4%，且8月國際收支歷經連7月赤字後呈現改善跡象(順差12.7億美元)，同時外匯存底亦回升為披索貶值提供保護空間。綜上，東南亞基本面和政策面有機會舒緩股匯壓力，評估MSCI東南亞指數可望往年線挑戰，後市可樂觀看待。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度9/14宣布將限制進口非必需品，降低外資對國內企業的投資門檻，並提高國內企業海外發債的比重上限，以期降低經常帳赤字，另提高鋼鐵進口稅至15%，原先5%-12.5%，以避免盧比持續貶值。不過近期油價續揚，預料盧比短期仍偏弱勢，故不排除10/5央行再度升息來阻貶。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度原定對美國實施鋼鋁課稅的反制措施由9/17延至11/2，預估未來幾週內雙方將達成協議，印度農產品將更容易進入美國，美國出口至印度的醫療設備可望取消訂價上限，並調降美國IT零組件進口稅。儘管弱勢盧比不利印股，但印度經濟強勁，且避免與美國貿易衝突，SENSEX 30指數長線仍偏多看待。</p>
+						</div>
+					</div>
+				</div>
+				<div id="eighth" class="right_all">
+					<p style="display: flex;"><img src="images/partly_Cloudy.svg" alt="">新興歐洲</p>
+					<div class="right_content">
+						<h3>新興歐洲股市：盧比續貶壓抑股市 與美消弭貿易摩擦</h3>
+						<div class="right_word">
+							<img src="images/2.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp;上週美國宣布對中國2,000億美元商品課稅清單，稅率25%低於此前威
+								脅的10%，投資人正面解讀，激勵MSCI東南亞指數上週上漲1.5%，收在789.27點。<br>&nbsp;&nbsp; &nbsp; &nbsp;泰國央行維持基準利率(1.5%)不變，評估今年出口年增率9.0%，且經濟成長率將會自去年3.9%(近5年最大增幅)提升至4.4%。央行表示將繼續維持低利率提振經濟，且預估通膨年增率為1.1%(央行目標區間1-4%)，市場預期泰國央行升息可能延後至明年，預期貨幣寬鬆將利泰股及經濟表現。而菲律賓上半年外債(722億美元)較去年同期下降0.4%，且8月國際收支歷經連7月赤字後呈現改善跡象(順差12.7億美元)，同時外匯存底亦回升為披索貶值提供保護空間。綜上，東南亞基本面和政策面有機會舒緩股匯壓力，評估MSCI東南亞指數可望往年線挑戰，後市可樂觀看待。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度9/14宣布將限制進口非必需品，降低外資對國內企業的投資門檻，並提高國內企業海外發債的比重上限，以期降低經常帳赤字，另提高鋼鐵進口稅至15%，原先5%-12.5%，以避免盧比持續貶值。不過近期油價續揚，預料盧比短期仍偏弱勢，故不排除10/5央行再度升息來阻貶。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度原定對美國實施鋼鋁課稅的反制措施由9/17延至11/2，預估未來幾週內雙方將達成協議，印度農產品將更容易進入美國，美國出口至印度的醫療設備可望取消訂價上限，並調降美國IT零組件進口稅。儘管弱勢盧比不利印股，但印度經濟強勁，且避免與美國貿易衝突，SENSEX 30指數長線仍偏多看待。</p>
+						</div>
+					</div>
+				</div>
+				<div id="ninth" class="right_all">
+					<p style="display: flex;"><img src="images/partly_Cloudy.svg" alt="">公司債</p>
+					<div class="right_content">
+						<h3>公司債股市：盧比續貶壓抑股市 與美消弭貿易摩擦</h3>
+						<div class="right_word">
+							<img src="images/2.png" alt="">
+							<p>&nbsp;&nbsp; &nbsp; &nbsp;上週美國宣布對中國2,000億美元商品課稅清單，稅率25%低於此前威
+								脅的10%，投資人正面解讀，激勵MSCI東南亞指數上週上漲1.5%，收在789.27點。<br>&nbsp;&nbsp; &nbsp; &nbsp;泰國央行維持基準利率(1.5%)不變，評估今年出口年增率9.0%，且經濟成長率將會自去年3.9%(近5年最大增幅)提升至4.4%。央行表示將繼續維持低利率提振經濟，且預估通膨年增率為1.1%(央行目標區間1-4%)，市場預期泰國央行升息可能延後至明年，預期貨幣寬鬆將利泰股及經濟表現。而菲律賓上半年外債(722億美元)較去年同期下降0.4%，且8月國際收支歷經連7月赤字後呈現改善跡象(順差12.7億美元)，同時外匯存底亦回升為披索貶值提供保護空間。綜上，東南亞基本面和政策面有機會舒緩股匯壓力，評估MSCI東南亞指數可望往年線挑戰，後市可樂觀看待。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度9/14宣布將限制進口非必需品，降低外資對國內企業的投資門檻，並提高國內企業海外發債的比重上限，以期降低經常帳赤字，另提高鋼鐵進口稅至15%，原先5%-12.5%，以避免盧比持續貶值。不過近期油價續揚，預料盧比短期仍偏弱勢，故不排除10/5央行再度升息來阻貶。<br>&nbsp;&nbsp; &nbsp; &nbsp;印度原定對美國實施鋼鋁課稅的反制措施由9/17延至11/2，預估未來幾週內雙方將達成協議，印度農產品將更容易進入美國，美國出口至印度的醫療設備可望取消訂價上限，並調降美國IT零組件進口稅。儘管弱勢盧比不利印股，但印度經濟強勁，且避免與美國貿易衝突，SENSEX 30指數長線仍偏多看待。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="line_hr">
+			<hr>
+		</div>
+		<section id="sec3" class="section section3">
+			<div class="section3_1">
+				<h2><img src="images/h2_deco.svg" alt="">資產配置設算<span>(玉山I-instant)</span></h2>
+				<div class="sec3_content">
+					<img src="images/i-instant.png" alt="">
+					<p>提供24小時線上理財試算服務，量身打造資產配置規劃<br><a href="https://www.esunbank.com.tw/s/WealthCalculation?wm_home_circle" target="_blank">立即前往</a></p>
+				</div>
+			</div>
+			<div class="section3_2">
+				<h2><img src="images/h2_deco.svg" alt="">定期定額首選基金</h2>
+				<div class="sec3_content">
+					<img src="images/invest.png" alt="">
+					<p>定期定額投資基金適合初次理財的你，透過定期定額幫你平均投資成本，理財更輕鬆<br><a href="https://www.esunbank.com.tw/event/wealth/fundrecommend2/index.html?ven=wealth&type=b1600" target="_blank">立即前往</a></p>
+				</div>
+			</div>
+		</section>
+		<div class="line_hr">
+			<hr>
+		</div>
+		<section id="sec4" class="section section4">
+			<div class="banner_outer">
+				<h2><img src="images/h2_deco.svg" alt="">最新活動</h2>
+				<div class="carousel-wrap">
+					<div class="owl-carousel">
+						<div class="item"><a href="https://www.esunbank.com.tw/event/wealth/new180/index.html?ven=wealth&type=b1600" target="_blank"><div class="banner"></div></a></div>
+					    <div class="item"><a href="https://www.esunbank.com.tw/event/wealth/popularrank/index.html?wm_home_popular" target="_blank"><div class="banner banner2"></div></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="booking">
+				<h3>尚未訂閱玉山理財電子週報嗎？<br><a href="https://ebank.esunbank.com.tw/fpo/fpo08004/FPO08004_Home.faces" class="animated-button thar-three" target="_blank">立即訂閱+</a></h3>
+			</div>
+		</section>
+		<div id="bottomFooter">
+			<div class="fortune_warning">
+				<p>相關告知事項：<br>本行所提供之資訊僅供參考用途。本行當盡力提供正確之資訊，所載資料均來自或本諸我們相信可靠之來源，但對其完整性、即時性和正確性不做任何擔保，如有錯漏或疏忽，本行並不負任何法律責任。任何人因信賴此等資料而做出或改變投資決策，應審慎衡量本身之需求及投資風險，並就投資結果自行負責。未經本行許可，本資料及訊息不得逕行抄錄、翻印或另作派發。投資建議均依市場變動而差異，投資前請務必留意市場最新訊息。本行以上市場資訊與分析，不涉及特定投資標的之建議。<br>如欲新增/取消訂閱，請至<a href="https://ebank.esunbank.com.tw/fpo/fpo08004/FPO08004_Home.faces" target="_blank">此連結</a>設定。</p>
+			</div>
+			<ul class="anchor">
+				<li class="first"><a href="https://www.esunbank.com.tw/bank/about/announcement/announcement?i=XREeBfE3o0m-H_Zqb9Kt9w&p=9WLFRe74B0ikiWlxA46w8Q&d=hxK-VOJqWkGADb4tgPQH4Q" target="_blank">連結政策</a></li>
+				<li><a href="https://www.esunbank.com.tw/bank/about/announcement/privacy/privacy-statement" target="_blank">個資法定告知事項</a></li>
+				<li><a href="https://www.esunbank.com.tw/bank/personal" target="_blank">玉山銀行</a><a href="https://www.esunsec.com.tw/" target="_blank">．玉山證券</a><a href="https://www.esunfhc.com/zh-tw/about-esun/intro/subsidiaries?tabid=tab03#tab-C" target="_blank">．玉山創投</a><a href="https://www.esunconsulting.com.tw/" target="_blank">．玉山投顧</a></li>
+				<li><a href="https://www.esunfhc.com.tw/volunteer/" target="_blank">玉山志工</a></li>
+				<li><a href="https://hr.esunfhc.com/StaffAcquisition/hireexam/Index/" target="_blank">線上菁英甄選</a></li>
+				<li><a href="https://www.esunbank.com.tw/bank/about/locations/branch" target="_blank">鄰近分行搜尋</a></li><br>
+				<li class="first">玉山銀行客服中心服務專線 (02) 2182-1313 ．0800-30-1313</li>	
+				<li class="last"><i class="copyright"></i>E.SUN BANK</li>
+		    </ul>
+		</div>
+		<div class="overlay">
+			<div class="close_lightbox">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/Chart.min.js"></script>
+	<script src="js/chartjs-plugin-datalabels.js"></script>
+	<script src="js/bar.js"></script>
+	<script src="js/tab.js"></script>
+	<script src="js/top.js"></script>
+	<script src="js/toggle.js"></script>
+	<script src="js/scrollreveal.js"></script>
+	<script src="js/scrollreveal_mine.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+			$('.owl-carousel').owlCarousel({
+			  loop: true,
+			  margin: 0,
+			  nav: true,
+			  autoplay: true,
+			  autoplayHoverPause: true,
+			  responsive: {
+			    0: {
+			      items: 1
+			    }
+			  }
+			})
+	</script>
+
+</body>
+</html>
